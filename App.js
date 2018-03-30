@@ -38,14 +38,9 @@ type Props = {};
 
 export default class App extends Component<Props> {
   render() {
-    let tabBarHeight = 0;
      return ( 
       <View style={styles.container}>
-            <TabNavigator
-              tabBarStyle={{ height: tabBarHeight, overflow: 'hidden' }}
-              sceneStyle={{ paddingBottom: tabBarHeight }}
-        />   
-            {/* <Text>什么鬼</Text> */}
+            <Text>什么鬼,hello world!</Text>
       </View>
      )
   }
